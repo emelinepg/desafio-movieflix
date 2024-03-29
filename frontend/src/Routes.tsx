@@ -1,10 +1,10 @@
-import Navbar from "components/Navbar";
 import PrivateRoute from "components/PrivateRoute";
+import { Route, Router, Switch } from "react-router-dom";
+import history from "utils/history";
 import Home from "pages/Home";
 import MovieDetails from "pages/MovieDetails";
 import MovieList from "pages/MovieList";
-import { Route, Router, Switch } from "react-router-dom";
-import history from "utils/history";
+import Navbar from "components/Navbar";
 
 const Routes = () => {
 

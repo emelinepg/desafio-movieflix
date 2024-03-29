@@ -15,7 +15,7 @@
 
 @media (min-width: 576px) {
     .home-container {
-        padding: 40px;
+        padding: 40px 50px;
     }
 }
 
@@ -23,8 +23,9 @@
     .home-banner-container {
         display: flex;
         flex-direction: column;
-        width: 500px;
+        width: 380px;
         margin-top: 40px;
+        margin-left: 50px;
     }
 
     .home-banner-container h1 {
@@ -40,9 +41,11 @@
         letter-spacing: -0.015em;
         color: #F2F2F2;
         margin-bottom: 40px;
+        width: 320px;
     }
 
     .home-banner-container svg {
-        width: 100%;
+        justify-content: flex-start;
+        width: 320px;
     }
 }

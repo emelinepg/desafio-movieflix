@@ -1,24 +1,32 @@
 .movie-list-container {
     color: white;
+    padding: 15px;
 }
 
 .movie-list-container h1 {
     font-size: 24px;
-    letter-spacing: -0.015em;
+    margin-bottom: 40px;
 }
 
 .movie-list-container h4 {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: -0.015em;
+    margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+    .movie-list-container {
+        color: white;
+        padding: 40px;
+    }
+
     .movie-list-container h1 {
         font-size: 48px;
     }
-    
+
     .movie-list-container h4 {
         font-size: 24px;
+        margin-bottom: 30px;
     }
 }

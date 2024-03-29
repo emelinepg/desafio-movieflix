@@ -8,12 +8,12 @@ type Props = {
 
 const ReviewItem = ({ review }: Props) => {
   return (
-    <div className="base-card product-card">
-      <div className="info-container">
+    <div>
+      <div className="review-author">
         <img src={Star} alt="star" />
         <h4>{review.user.name}</h4>
       </div>
-      <div>
+      <div className="review-text">
         <p>{review.text}</p>
       </div>
     </div>

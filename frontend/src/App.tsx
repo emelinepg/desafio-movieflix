@@ -1,8 +1,8 @@
 import Routes from 'Routes';
-import './assets/styles/custom.scss';
-import './App.css';
 import { useState } from 'react';
 import { AuthContext, AuthContextData } from 'AuthContext';
+import './assets/styles/custom.scss';
+import './App.css';
 
 function App() {
 

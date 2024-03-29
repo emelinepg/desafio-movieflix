@@ -39,7 +39,7 @@ const Navbar = () => {
       </Link>
       <div>
         {authContextData.authenticated && (
-          <a href="#logout" onClick={handleLogoutClick}>
+          <a href="#logout" onClick={handleLogoutClick} className="logout-container">
             SAIR
           </a>
         )}

@@ -53,8 +53,8 @@ const ReviewCard = () => {
   };
 
   return (
-    <div className="base-card login-card">
-      <form onSubmit={handleSubmit(onSubmit)}>
+    <div className="base-card review-card">
+      <form onSubmit={handleSubmit(onSubmit)} className="review-form">
         <div className="mb-4">
           <input
             {...register('review', {
@@ -73,7 +73,7 @@ const ReviewCard = () => {
             {errors.review?.message}
           </div>
         </div>
-        <div className="login-submit">
+        <div className="review-submit">
           <Button text="Salvar avaliação" />
         </div>
       </form>

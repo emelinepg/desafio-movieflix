@@ -13,14 +13,16 @@ const MovieDetails = () => {
   const { movieId } = useParams<UrlParams>();
   return (
     <ReviewProvider>
-      <div>
-        <h1>Tela detalhes do filme id: {movieId}</h1>
-        <div className="container my-4 catalog-container">
+      <div className="details-container">
+        <h1 className="details-title">Tela detalhes do filme id: {movieId}</h1>
+        <div className="container my-4 reviews-container">
           <div className="row">
-            <div>{hasAnyRoles(['ROLE_MEMBER']) && <ReviewCard />}</div>
+            <div className="px-0">{hasAnyRoles(['ROLE_MEMBER']) && <ReviewCard />}</div>
           </div>
-          <div className="row">
+          <div className="row base-card review-list">
+            <div className="px-0">
             <ReviewList movieId={movieId} />
+            </div>
           </div>
         </div>
       </div>

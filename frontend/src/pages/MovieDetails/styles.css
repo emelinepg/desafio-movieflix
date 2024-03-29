@@ -1,0 +1,43 @@
+.details-container {
+    padding: 20px 10px;
+}
+
+.details-title {
+    color: white;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    
+}
+
+.review-list {
+    padding: 20px 10px;
+}
+
+@media (min-width: 768px) {
+    .details-container {
+        padding: 30px;
+    }
+
+    .details-title {
+        font-size: 36px;
+    }
+
+    .review-list {
+        padding: 20px 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .details-container {
+        padding: 40px;
+    }
+
+    .details-title {
+        font-size: 48px;
+    }
+
+    .review-list {
+        padding: 20px;
+    }
+}

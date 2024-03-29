@@ -1,0 +1,48 @@
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 10px;
+}
+
+.home-banner-container {
+    display: none;
+}
+
+.home-login-container {
+    width: 100%;
+    max-width: 480px;
+}
+
+@media (min-width: 576px) {
+    .home-container {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-banner-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-top: 40px;
+    }
+
+    .home-banner-container h1 {
+        font-size: 48px;
+        letter-spacing: -0.015em;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .home-banner-container p {
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: -0.015em;
+        color: #F2F2F2;
+        margin-bottom: 40px;
+    }
+
+    .home-banner-container svg {
+        width: 100%;
+    }
+}

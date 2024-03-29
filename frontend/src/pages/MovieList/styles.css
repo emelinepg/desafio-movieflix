@@ -1,0 +1,24 @@
+.movie-list-container {
+    color: white;
+}
+
+.movie-list-container h1 {
+    font-size: 24px;
+    letter-spacing: -0.015em;
+}
+
+.movie-list-container h4 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+}
+
+@media (min-width: 768px) {
+    .movie-list-container h1 {
+        font-size: 48px;
+    }
+    
+    .movie-list-container h4 {
+        font-size: 24px;
+    }
+}
